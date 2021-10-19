@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: deepskyblue;
+    top: 0;
+    left: 0;
+    text-align: end;
+    z-index: 98;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.logo{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    z-index: 99;
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+.homesplash{
+    margin-top: 50px;
+    color: white;
+    height: 200px;
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/OzpiTdT.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.homesplashp{
+    display: flex;
+    color: white;
+    font-size: 50px;
+}
+.content{
+    background-color: white;
+    height: 400px;
+}
+.subtitleflex{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+.subtitle{
+    background-image: url("https://cdn.wallpapersafari.com/55/66/Jxf2Nk.jpg");
+    background-size: cover;
+    margin: 20px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.subtitletext{
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+}
+.plain{
+    width: 100%;
+    height: 200px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lipsum{
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contentflex{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subbig{
+    background-image: url("https://cdn.wallpapersafari.com/55/66/Jxf2Nk.jpg");
+    background-size: cover;
+    margin: 20px;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer{
+    color: white;
+    font-size: 20px;
+}
